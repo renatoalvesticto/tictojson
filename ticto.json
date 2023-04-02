@@ -1,0 +1,119 @@
+{
+  "status": "authorized",
+  "status_date": "2022-03-23 14:28:22",
+  "payment_method": "bank_slip",
+  "commission_type": "producer",
+  "order": {
+    "order_date": "2022-03-23 14:28:22",
+    "hash": "TOB12609GU88Q5",
+    "paid_amount": 50000,
+    "installments": 1
+  },
+  "freight": {
+    "amount": 1000,
+    "type": "shipping_company",
+    "method": "pac",
+  },
+  "item": {
+    "product_name": "Paki Guthrie",
+    "product_id": 1,
+    "offer_name": "Teste qa",
+    "refund_deadline": 7,
+    "offer_id": 16,
+    "coupon_id": null,
+    "quantity": 1,
+    "amount": 50000,
+    "members_portal_id": 24,
+    "members_classroom_id": 123,
+    "days_of_access": null,
+    "trial_days": null
+  },
+  "transaction": {
+    "bank_slip_code": "03399.85301 29700.000242 2722020.901016 2 7815002200015630",
+    "bank_slip_url": "asdf",
+    "pix_url": "asdf",
+    "pix_qr_code": "asdfasdf",
+    "cards": [
+        {
+        "brand": "visa",
+        "holder": "Teste de Nome aqui",
+        "first_digits": "411111",
+        "last_digits": "1111"
+      }
+     ]
+  },
+  "customer": {
+    "cpf": "00442742299",
+    "cnpj": null,
+    "name": "Cliente Teste",
+    "type": "person",
+    "email": "emailteste@customerteste.com.io",
+    "is_foreign": false,
+    "phone": {
+      "ddd": "999",
+      "ddi": "+55",
+      "number": "995682466"
+    },
+    "address": {
+      "street": "Rua teste",
+      "street_number": "222",
+      "complement": "Complemento Teste",
+      "neighborhood": "Teste de Bairro",
+      "city": "São Paulo",
+      "state": "SP",
+      "zip_code": "13044207"
+    }
+  },
+  "producer": {
+    "id": 1,
+    "name": "Nome do Produtor",
+    "email": "emaildoprodutor@provedor.com.br",
+    "document": "00000000000",
+    "cms": 80
+  },
+  "affiliates": [
+    {
+      "id": 1,
+      "name": "Nome do Afiliado 1",
+      "email": "emaildoafiliado8@provedor.com.br",
+      "document": "00000000000",
+      "amount": 40
+    },
+    {
+      "id": 2,
+      "name": "Nome do Afiliado 2",
+      "email": "emaildoafiliado8@provedor.com.br",
+      "document": "00000000000",
+      "amount": 40
+    }
+  ],
+  "coproducers": [
+    {
+      "id": 1,
+      "name": "Nome do coprodutor 1",
+      "email": "emaildocoprodutor8@provedor.com.br",
+      "document": "00000000000",
+      "amount": 40
+    },
+    {
+      "id": 2,
+      "name": "Nome do coprodutor 2",
+      "email": "emaildocoprodutor8@provedor.com.br",
+      "document": "00000000000",
+      "cms": 40
+    }
+  ],
+  "query_params": {
+      "code": "ODBB073D9",
+      "sck": "REMARKETING"
+  },
+  "tracking": {
+    "utm_source": "Não Informado",
+    "utm_medium": "Não Informado",
+    "utm_campaign": "Não Informado",
+    "utm_content": "Não Informado",
+    "utm_term": "Não Informado",
+    "src": "Não Informado",
+    "sck": "REMARKETING"
+  }
+}
